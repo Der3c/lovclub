@@ -2,6 +2,31 @@ html {
   font-family: 'Muli', sans-serif;
 }
 
-html{
+html {
   background-color: #DDEBF3;
+}
+
+#left {
+  border: 2px solid black;
+  height: 200px;
+  width: 120px;
+  display: inline-block;
+}
+
+#center {
+  border: 2px solid black;
+  height: 200px;
+  width: 120px;
+  display: inline-block;
+}
+
+#right {
+  border: 2px solid black;
+  height: 200px;
+  width: 120px;
+  display: inline-block;
+}
+
+h3 {
+  text-align: center;
 }
