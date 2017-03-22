@@ -30,3 +30,13 @@ html {
 h3 {
   text-align: center;
 }
+
+a:hover {
+	color: #cc0000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
