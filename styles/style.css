@@ -11,6 +11,8 @@ html {
   border-bottom: 1px solid grey;
   background-color: #e0e1e2;
   margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
   word-spacing: 30px;
 }
  #navheader li {
