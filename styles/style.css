@@ -7,7 +7,8 @@ html {
 }
 
 body {
-  background-image:url(http://www.publicdomainpictures.net/pictures/60000/nahled/bike-on-vintage-background.jpg);
+  background: url(http://www.publicdomainpictures.net/pictures/60000/nahled/bike-on-vintage-background.jpg) no-repeat;
+
 }
 
 #navheader {
