@@ -6,6 +6,10 @@ html {
   background-color: #DDEBF3;
 }
 
+body {
+  background-image:url(http://www.publicdomainpictures.net/pictures/60000/nahled/bike-on-vintage-background.jpg);
+}
+
 #navheader {
   display: block;
   border-bottom: 1px solid grey;
