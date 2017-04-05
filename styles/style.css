@@ -6,26 +6,27 @@ html {
 body {
   background:  #fff url(../images/noise-15.png);
   width: 100%;
+  margin: 0 auto 0 auto;
   height: auto;
   text-align: center;
+  font-size: 62.5%;
 }
 
 header {
   display: block;
   background-image: url(../images/noise-15.png);
-  background-color: #778899;
   width: 100%;
-  border-bottom: 1px solid grey;
+  border-bottom: .1em solid grey;
   background-color: #e0e1e2;
-  margin: 0 auto 10px auto;
+  margin: 0 auto 1em auto;
   text-align: center;
-  word-spacing: 40px;
+  word-spacing: 3em;
 }
 
  header li {
   display: inline;
   text-align: center;
-  font-size: 30px;
+  font-size: 3em;
  }
 
  header a {
@@ -38,54 +39,43 @@ header a:hover {
 	text-decoration: none;
 }
 
+.bikeimg img {
+  max-width: 65%;
+  height: auto;
+}
+
 .main_p {
   display: inline-block;
   text-align: justify;
-  margin: 10px 230px 10px 230px;
+  margin: 1em 14% 1em 14%;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 2em;
 }
 
-#left {
-  border: 2px solid black;
-  padding: 40px;
-  margin: 30px;
-  height: 200px;
-  width: 140px;
-  display: inline-block;
-}
-
-#center {
-  border: 2px solid black;
-  padding: 40px;
-  margin: 30px;
-  height: 200px;
-  width: 140px;
-  display: inline-block;
-}
-
-#right {
-  border: 2px solid black;
-  padding: 40px;
-  margin: 30px;
-  height: 200px;
-  width: 140px;
+#left, #center, #right {
+  border: .2em solid black;
+  padding: 4em;
+  margin: 3em;
+  height: 20em;
+  width: 14em;
   display: inline-block;
 }
 
 h1 {
-font-size: 40px;
-  margin: 10px;
-  padding: 10px;
+font-size: 4em;
+  padding: 0.5em;
 }
 
-p {
-    margin: 10px;
-    padding: 10px;
-  }
 
 h2 {
   text-align: center;
-  font-size: 26px;
+  font-size: 2.6em;
   font-weight: bold;
+}
+
+footer {
+  height: 3em;
+  background-image: url(../images/noise-15.png);
+  background-color: #e0e1e2;
+  margin-bottom: 0;
 }
