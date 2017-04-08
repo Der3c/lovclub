@@ -4,7 +4,7 @@ html {
 
 
 body {
-  background:  #fff url(../images/noise-15.png);
+  background:  #fffafa url(../images/noise-15.png);
   width: 100%;
   margin: 0 auto 0 auto;
   height: auto;
@@ -14,19 +14,20 @@ body {
 
 header {
   display: block;
+  float: none;
   background-image: url(../images/noise-15.png);
   width: 100%;
   border-bottom: .1em solid grey;
   background-color: #e0e1e2;
   margin: 0 auto 1em auto;
-  text-align: center;
-  word-spacing: 3em;
+  text-align:center;
 }
 
  header li {
   display: inline;
   text-align: center;
   font-size: 3em;
+  padding-left: 2em;
  }
 
  header a {
@@ -46,8 +47,8 @@ header a:hover {
 
 .main_p {
   display: inline-block;
-  text-align: justify;
-  margin: 1em 14% 1em 14%;
+  text-align: inherit;
+  margin: 1em 25% 1em 25%;
   font-weight: 500;
   font-size: 2em;
 }
@@ -61,16 +62,22 @@ header a:hover {
   display: inline-block;
 }
 
-h1 {
-font-size: 4em;
-  padding: 0.5em;
+#left h2, #center h2, #right h2 {
+  padding-bottom: 1em;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
 }
 
-
-h2 {
+#left p, #center p, #right p {
+  padding-bottom: 0.5em;
   text-align: center;
-  font-size: 2.6em;
-  font-weight: bold;
+  font-size: 1.8em;
+}
+
+h1 {
+font-size: 3.5em;
+  padding: 0.5em;
 }
 
 footer {
@@ -79,3 +86,6 @@ footer {
   background-color: #e0e1e2;
   margin-bottom: 0;
 }
+
+
+<!--Start media queries here. 800px 480px 320px --!>
