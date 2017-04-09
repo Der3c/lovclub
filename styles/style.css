@@ -41,13 +41,13 @@ header a:hover {
 }
 
 .bikeimg img {
-  max-width: 65%;
+  max-width: 55%;
   height: auto;
 }
 
 .main_p {
   display: inline-block;
-  text-align: inherit;
+  text-align: justify;
   margin: 1em 25% 1em 25%;
   font-weight: 500;
   font-size: 2em;
@@ -87,5 +87,52 @@ footer {
   margin-bottom: 0;
 }
 
+/* ---- 840px width --- */
 
-<!--Start media queries here. 800px 480px 320px --!>
+@media screen and (max-width: 840px) {
+
+  header li {
+   display: inline;
+   text-align: center;
+   font-size: 2.2em;
+   padding-left: 1.5em;
+  }
+
+  .main_p {
+    display: inline-block;
+    text-align: justify;
+    margin: 1em 25% 1em 25%;
+    font-weight: 500;
+    font-size: 1.5em;
+  }
+
+  #left, #center, #right {
+    border: .2em solid black;
+    padding: 2em;
+    margin: 2em;
+    height: 15em;
+    width: 10em;
+    display: inline-block;
+  }
+
+  #left h2, #center h2, #right h2 {
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  #left p, #center p, #right p {
+    padding-bottom: 0.5em;
+    text-align: center;
+    font-size: 1.2em;
+  }
+
+
+  h1 {
+  font-size: 2.5em;
+    padding: 0.5em;
+  }
+
+}
+/* ---- 840px width end --- */
