@@ -60,6 +60,7 @@ header a:hover {
   height: 20em;
   width: 14em;
   display: inline-block;
+
 }
 
 #left h2, #center h2, #right h2 {
@@ -136,3 +137,114 @@ footer {
 
 }
 /* ---- 840px width end --- */
+
+/* ---- 568px width --- */
+
+@media screen and (max-width: 568px) {
+
+  header li {
+   display: list-item;
+   text-align: center;
+   font-size: 2.2em;
+   padding-left: 1.5em;
+   align-items: center;
+  }
+
+  .bikeimg img {
+    max-width: 90%;
+    height: auto;
+  }
+
+  .main_p {
+    display: inline-block;
+    margin: 1em 10% 1em 10%;
+    font-weight: 500;
+    font-size: 2em;
+    text-align: left;
+  }
+
+  #left, #center, #right {
+    border: .2em solid black;
+    padding: 4em;
+    margin: 3em;
+    height: 20em;
+    width: 14em;
+    display: inline-block;
+  }
+}
+
+/* ---- 568px width end --- */
+
+/* ---- 438px width --- */
+
+@media screen and (max-width: 438px) {
+
+  header li {
+   display: list-item;
+   text-align: center;
+   font-size: 2.2em;
+   padding-left: 1.5em;
+   align-items: center;
+  }
+
+  .bikeimg img {
+    max-width: 90%;
+    height: auto;
+  }
+
+  .main_p {
+    display: inline-block;
+    margin: 1em 10% 1em 10%;
+    font-weight: 500;
+    font-size: 2em;
+    text-align: inherit;
+  }
+
+  #left, #center, #right {
+    border: .2em solid black;
+    padding: 4em;
+    margin: 3em;
+    height: 20em;
+    width: 14em;
+    display: inline-block;
+  }
+
+  h1 {
+  font-size: 2em;
+    padding: 0.5em;
+  }
+
+}
+/* ---- 438px width  end --- */
+
+/* ---- 375px width --- */
+
+@media screen and (max-width: 375px) {
+
+.main_p {
+  display: inline-block;
+  margin: 1em 10% 1em 10%;
+  font-weight: 500;
+  font-size: 2em;
+  text-align: center;
+}
+
+h1 {
+font-size: 1.8em;
+  padding: 0.5em;
+}
+
+}
+
+/* ---- 375px width  end --- */
+
+/* ---- 320px width --- */
+
+@media screen and (max-width: 320px) {
+
+  h1 {
+  font-size: 1.5em;
+    padding: 0.5em;
+  }
+
+}
